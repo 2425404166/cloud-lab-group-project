@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact CyberWise for questions about cybersecurity awareness and digital safety.">
+  <title>Contact | CyberWise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="CyberWise home"><span class="logo-mark">C</span><span>Cyber<span>Wise</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <a class="button button-small" href="index.html#tips">Safety tips</a>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div class="contact-copy">
+        <p class="eyebrow"><span></span> Contact CyberWise</p>
+        <h1>Let’s talk about a safer <em>digital world.</em></h1>
+        <p>Have a question, want to share a concern, or need cybersecurity awareness resources? Send us a message.</p>
+        <div class="contact-details">
+          <div><span class="detail-icon">@</span><div><small>Email</small><a href="mailto:hello@cyberwise.org">hello@cyberwise.org</a></div></div>
+          <div><span class="detail-icon">?</span><div><small>Response time</small><p>Within 1–2 business days</p></div></div>
+        </div>
+        <aside class="emergency-note">
+          <strong>Experiencing an active cyber incident?</strong>
+          <p>Disconnect affected devices from the network and contact your organization’s IT or security team immediately.</p>
+        </aside>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-heading">
+          <span>SECURE MESSAGE</span>
+          <h2>How can we help?</h2>
+        </div>
+        <div class="form-row">
+          <label>First name<input type="text" name="first-name" placeholder="Your first name" required></label>
+          <label>Last name<input type="text" name="last-name" placeholder="Your last name" required></label>
+        </div>
+        <label>Email address<input type="email" name="email" placeholder="you@example.com" required></label>
+        <label>Topic
+          <select name="topic">
+            <option value="">Select a topic</option>
+            <option>General cybersecurity question</option>
+            <option>Awareness resources</option>
+            <option>Report suspicious activity</option>
+            <option>Partnership inquiry</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" rows="5" placeholder="Tell us how we can help..." required></textarea></label>
+        <button class="button form-button" type="submit">Send message <span aria-hidden="true">→</span></button>
+        <p class="privacy-note">Please do not include passwords, financial details, or other sensitive personal information.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html"><span class="logo-mark">C</span><span>Cyber<span>Wise</span></span></a>
+    <p>Practical knowledge for a safer digital world.</p>
+    <div><a href="about.html">About</a><a href="contact.html">Contact</a><span>© 2026 CyberWise</span></div>
+  </footer>
+</body>
+</html>
